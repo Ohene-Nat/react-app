@@ -138,3 +138,12 @@ code {
   font-family: sans-serif Arial, Helvetica, sans-serif;
   color: hsl(0, 1%, 30%);
 }
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid rgb(78, 77, 77);
+}
+.student p {
+  margin: 5px 0;
+}
