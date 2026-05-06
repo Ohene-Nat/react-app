@@ -4,6 +4,7 @@ import Food from "./food";
 import Card from "./card";
 import Students from "./students";
 import UserGreeting from "./UserGreeting";
+import List from "./list";
 function App() {
   return (
     <div>
@@ -16,7 +17,7 @@ function App() {
       <Students name="Alice" age={20} isStudent={true} />
       <Students name="Bob" age={25} isStudent={false} />
       <Students name="Charlie" age={30} isStudent={true} />
-      <Students />
+      <List />
       <Footer />
     </div>
   );
